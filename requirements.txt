@@ -35,7 +35,18 @@ threadpoolctl
 torch
 torchsde
 torchvision
-tqdm
+torchaudio
+einops
 transformers>=4.25.1
-ultralytics
-urllib3
+safetensors>=0.4.2
+aiohttp
+pyyaml
+Pillow
+scipy
+tqdm
+psutil
+
+#non essential dependencies:
+kornia>=0.7.1
+spandrel
+soundfile
