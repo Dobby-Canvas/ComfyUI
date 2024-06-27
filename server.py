@@ -6,7 +6,11 @@ import mimetypes
 import os
 import ssl
 import struct
+import sys
+import traceback
 import urllib
+import uuid
+from io import BytesIO
 
 import aiohttp
 from aiohttp import web
